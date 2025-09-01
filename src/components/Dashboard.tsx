@@ -346,11 +346,11 @@ export function Dashboard() {
       {/* Header */}
       <div className="flex items-center justify-between p-6 pt-8">
         <div className="flex-1">
-          <h1 className="text-base text-muted-foreground font-inter-normal mb-1">Good Morning, James</h1>
+          <h1 className="text-base text-muted-foreground font-inter-normal mb-1">Good Morning, ----</h1>
           <div className="mb-1">
-            <span className="text-3xl font-inter-semibold">$98,081.75</span>
+            <span className="text-3xl font-inter-semibold">$----.--</span>
           </div>
-          <span className="text-primary text-sm font-inter-medium">+1700.254 (9.77%)</span>
+          <span className="text-primary text-sm font-inter-medium">+$---.-- (9.77%)</span>
         </div>
         <div className="flex items-center gap-3">
           <Button
