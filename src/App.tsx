@@ -24,12 +24,12 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#121212] dark">
       <Dialog open={showModal} onOpenChange={(open) => { if (!open) handleCloseModal(); }}>
-        <DialogContent className="bg-[#1e1e1e] p-10 border-[#8a94a733] text-white">
+        <DialogContent className="bg-card p-12 border-border text-white">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold mb-4 text-center">
               Welcome to the Demo
             </DialogTitle>
-            <DialogDescription className="text-base text-[#a0a0a0] mb-8 text-center">
+            <DialogDescription className="text-base text-muted-foreground mb-8 text-center">
               This is a demonstration version of the Financial Trading Dashboard. 
               All data displayed is for illustrative purposes only and should not be 
               considered real financial information.
