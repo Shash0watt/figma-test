@@ -58,7 +58,7 @@ interface Notification {
 const strategies: Strategy[] = [
   {
     id: '1',
-    name: 'Earnings Crush',
+    name: 'Algo-1',
     description: 'Bets against extreme price moves after company earnings.',
     tags: ['Stocks', 'High Risk', 'Options'],
     return: '+24.5%',
@@ -76,7 +76,15 @@ const strategies: Strategy[] = [
     },
     riskAnalysis: '⚠️ High Risk. While this strategy has a high win rate, a single unexpected, massive price swing in a stock can lead to significant, theoretically unlimited losses.',
     exampleTrade: 'Before $FIN Corp reported earnings, the market expected a 15% price move. The algo initiated a trade betting it would move less than that. The stock only moved 8%, and the position was closed for a profit two days later.',
-    howItWorks: 'This strategy identifies stocks with very high market expectations before an earnings announcement. It then sells an options combination (a short straddle) that profits if the stock\'s price move—up or down—is less dramatic than the market predicts. It aims to capture the rapid decay in option value right after the news breaks.'
+    howItWorks: 'Focus on capitalizing
+elevated volatility by shorting
+straddles on FinTech and
+Consumer US Single Stocks
+before earnings
+announcements, monetizing
+post-event gamma reversion.
+4 Day Holding Period.
+'
   },
   {
     id: '2',
