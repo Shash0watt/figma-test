@@ -76,15 +76,7 @@ const strategies: Strategy[] = [
     },
     riskAnalysis: '⚠️ High Risk. While this strategy has a high win rate, a single unexpected, massive price swing in a stock can lead to significant, theoretically unlimited losses.',
     exampleTrade: 'Before $FIN Corp reported earnings, the market expected a 15% price move. The algo initiated a trade betting it would move less than that. The stock only moved 8%, and the position was closed for a profit two days later.',
-    howItWorks: 'Focus on capitalizing
-elevated volatility by shorting
-straddles on FinTech and
-Consumer US Single Stocks
-before earnings
-announcements, monetizing
-post-event gamma reversion.
-4 Day Holding Period.
-'
+    howItWorks: 'Focus on capitalizing elevated volatility by shorting straddles on FinTech and Consumer US Single Stocks before earnings announcements, monetizing post-event gamma reversion. 4 Day Holding Period.'
   },
   {
     id: '2',
