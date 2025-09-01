@@ -14,15 +14,16 @@ const Modal: React.FC<ModalProps> = ({ show, onClose }) => {
   }
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center">
-      <div className="bg-[#1a1a1a] p-6 rounded-lg shadow-lg max-w-sm w-full text-white border border-[#8a94a733]">
-        <h2 className="text-xl font-semibold mb-4">Welcome to the Demo</h2>
-        <p className="text-sm text-[#8a94a7] mb-6">
+    <div className="fixed inset-0 bg-black bg-opacity-50 backdrop-blur-md z-50 flex justify-center items-center">
+      <div className="bg-[#1e1e1e] p-10 rounded-xl shadow-2xl max-w-md w-11/12 text-white border border-[#8a94a733]">
+        <h2 className="text-2xl font-bold mb-4 text-center">Welcome to the Demo</h2>
+        <p className="text-base text-[#a0a0a0] mb-8 text-center">
           This is a demonstration version of the Financial Trading Dashboard. All data displayed is for illustrative purposes only and should not be considered real financial information.
         </p>
         <button
           onClick={onClose}
-          className="w-full bg-[#00ffab] text-black font-medium py-2 rounded-md hover:bg-opacity-90 transition-colors"
+          style={{ backgroundColor: '#00ffab' }}
+          className="w-full text-black font-semibold py-3 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105"
         >
           Acknowledge
         </button>
@@ -32,23 +33,18 @@ const Modal: React.FC<ModalProps> = ({ show, onClose }) => {
 };
 
 export default function App() {
-  const [showModal, setShowModal] = useState(false);
-
-  useEffect(() => {
-    // Use sessionStorage to only show the modal once per session
-    if (!sessionStorage.getItem('demoModalShown')) {
-      setShowModal(true);
-      sessionStorage.setItem('demoModalShown', 'true');
-    }
-  }, []);
+  // Initialize state based on sessionStorage
+  const [showModal, setShowModal] = useState(() => !sessionStorage.getItem('demoModalShown'));
 
   const handleCloseModal = () => {
     setShowModal(false);
+    // Set the flag in sessionStorage after the modal is closed
+    sessionStorage.setItem('demoModalShown', 'true');
   };
 
   return (
-    <div className="min-h-screen bg-[#121212] dark">
-      <Modal show={showModal} onClose={handleCloseModal} />
+    <div className={`min-h-screen bg-[#121212] dark ${showModal ? 'overflow-hidden' : ''}`}>
+      {showModal && <Modal show={showModal} onClose={handleCloseModal} />}
       <Dashboard />
     </div>
   );
