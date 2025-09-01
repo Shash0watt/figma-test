@@ -32,8 +32,8 @@ const userProfile: UserProfile = {
   name: '----, ----',
   email: '----@email.com',
   joinDate: 'March 2024',
-  totalInvested: '$95,000',
-  totalReturns: '+$3,081.75',
+  totalInvested: '$--,---.--',
+  totalReturns: '+$-,---.--',
   riskTolerance: 'Moderate'
 };
 
