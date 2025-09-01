@@ -4887,3 +4887,10 @@ html {
     opacity: 0;
   }
 }
+
+.welcome-modal {
+  background-color: var(--card);
+  border-color: var(--border);
+  color: var(--foreground);
+  padding: 3rem; /* 48px, equivalent to p-12 */
+}
