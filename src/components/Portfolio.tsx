@@ -21,7 +21,7 @@ const positions = [
     allocation: 45,
     value: 44136.79,
     return: '+8.2%',
-    returnAmount: '+$3,341',
+    returnAmount: '+$-,---',
     isPositive: true,
     status: 'active'
   },
@@ -31,7 +31,7 @@ const positions = [
     allocation: 30,
     value: 29424.53,
     return: '+12.8%',
-    returnAmount: '+$3,340',
+    returnAmount: '+$-,---',
     isPositive: true,
     status: 'active'
   },
@@ -41,16 +41,16 @@ const positions = [
     allocation: 25,
     value: 24520.43,
     return: '-2.1%',
-    returnAmount: '-$524',
+    returnAmount: '-$---',
     isPositive: false,
     status: 'active'
   }
 ];
 
 const portfolioStats = [
-  { label: 'Total Value', value: '$98,081.75', change: '+9.77%', icon: DollarSign },
+  { label: 'Total Value', value: '$--,---.--', change: '+9.77%', icon: DollarSign },
   { label: 'Active Strategies', value: '3', change: null, icon: PieChart },
-  { label: 'Monthly Return', value: '+$3,081', change: '+3.24%', icon: TrendingUp },
+  { label: 'Monthly Return', value: '+$-,---', change: '+3.24%', icon: TrendingUp },
   { label: 'Best Performer', value: 'Volatility Fade', change: '+12.8%', icon: BarChart3 }
 ];
 
