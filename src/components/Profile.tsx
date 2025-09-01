@@ -29,8 +29,8 @@ interface UserProfile {
 }
 
 const userProfile: UserProfile = {
-  name: 'James Davidson',
-  email: 'james.davidson@email.com',
+  name: '----, ----',
+  email: '----@email.com',
   joinDate: 'March 2024',
   totalInvested: '$95,000',
   totalReturns: '+$3,081.75',
