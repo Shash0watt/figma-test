@@ -88,8 +88,8 @@ post-event gamma reversion.
   },
   {
     id: '2',
-    name: 'Volatility Fade',
-    description: 'Profits from the predictable drop in volatility after earnings.',
+    name: 'Algo-2',
+    description: 'Profits from the predictable rise in volatility of certain equtiies',
     tags: ['Stocks', 'Medium Risk', 'Options'],
     return: '+12.8%',
     returnPercent: '12.8',
@@ -106,11 +106,11 @@ post-event gamma reversion.
     },
     riskAnalysis: '✅ Defined Risk. Your maximum possible loss is limited to the initial amount you invest in the trade, making it a more controlled strategy.',
     exampleTrade: 'After $CSM Inc. reported earnings, its volatility dropped 50%. The algo bought a spread designed to profit if the stock stayed between $40 and $55 for the next 30 days.',
-    howItWorks: 'After earnings are released, market uncertainty (and thus option prices) tends to "crush." This strategy enters after that crush, using a complex options spread (a double diagonal) to profit from time decay while volatility stays low. It\'s a bet that the stock will remain relatively stable in the weeks following the announcement.'
+    howItWorks: 'A Vega exposure strategy centered on monetizing trend-sensitive sectors by acquiring double diagonals in small and mid-cap consumer discretionary equities across the US and EU following post-earnings IV crush.'
   },
   {
     id: '3',
-    name: 'Crypto Momentum Rider',
+    name: 'Algo-3',
     description: 'Buys into the hottest, trending crypto tokens weekly.',
     tags: ['Crypto', 'High Risk', 'Momentum'],
     return: '+45.2%',
@@ -128,7 +128,7 @@ post-event gamma reversion.
     },
     riskAnalysis: '⚠️ High Risk. Crypto is extremely volatile. Momentum can reverse instantly, leading to sharp and sudden losses. This strategy can experience significant drawdowns.',
     exampleTrade: 'When $TKN showed a 60% price increase on high volume, the algo bought it. It rode the trend for another 25% gain before selling it at the end of the week to buy the next emerging leader.',
-    howItWorks: 'This strategy constantly scans the market for crypto tokens that are showing strong upward price trends. It identifies assets gaining significant "buzz" and retail interest, buys them, and holds for one week to capture the peak of the momentum before rotating into the next leading token.'
+    howItWorks: 'An exposure strategy centered on monetizing capital rotation within high-turnover crypto tokens by targeting momentum in retail-dominated spot markets. Weekly Holding Period.'
   }
 ];
 
