@@ -24,7 +24,8 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#121212] dark">
       <Dialog open={showModal} onOpenChange={(open) => { if (!open) handleCloseModal(); }}>
-        <DialogContent className="bg-card p-12 border-border text-white">
+        {/* Add the custom class name here */}
+        <DialogContent className="welcome-modal">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold mb-4 text-center">
               Welcome to the Demo
