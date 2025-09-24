@@ -4447,13 +4447,13 @@
   --card-foreground: #ffffff;
   --popover: #2a3858;
   --popover-foreground: #ffffff;
-  --primary: #FFC700; /* Vibrant gold accent */
+  --primary: #6d8fed; /* Vibrant gold accent */
   --primary-foreground: #10182b; /* Dark blue for text on gold */
   --secondary: #8a94a7;
   --secondary-foreground: #ffffff;
   --muted: #253250; /* Darker, related blue for muted elements */
   --muted-foreground: #8a94a7;
-  --accent: #FFC700; /* Vibrant gold accent */
+  --accent: #6d8fed; /* Vibrant gold accent */
   --accent-foreground: #10182b; /* Dark blue for text on gold */
   --destructive: #d4183d;
   --destructive-foreground: #fff;
@@ -4461,8 +4461,8 @@
   --input: transparent;
   --input-background: #253250;
   --switch-background: #cbced4;
-  --ring: #FFC700; /* Vibrant gold accent */
-  --chart-1: #FFC700; /* Vibrant gold accent */
+  --ring: #6d8fed; /* Vibrant gold accent */
+  --chart-1: #6d8fed; /* Vibrant gold accent */
   --chart-2: #8a94a7;
   --chart-3: #fff;
   --chart-4: #828292;
@@ -4470,12 +4470,12 @@
   --radius: .625rem;
   --sidebar: #2a3858;
   --sidebar-foreground: #fff;
-  --sidebar-primary: #FFC700;
+  --sidebar-primary: #6d8fed;
   --sidebar-primary-foreground: #10182b;
   --sidebar-accent: #253250;
   --sidebar-accent-foreground: #fff;
   --sidebar-border: rgba(138, 148, 167, 0.2);
-  --sidebar-ring: #FFC700;
+  --sidebar-ring: #6d8fed;
   /* --- FONT WEIGHTS --- */
   --font-weight-light: 300;
   --font-weight-normal: 400;
@@ -4492,32 +4492,32 @@
   --card-foreground: #ffffff;
   --popover: #2a3858;
   --popover-foreground: #ffffff;
-  --primary: #FFC700; /* Vibrant gold accent */
+  --primary: #6d8fed; /* Vibrant gold accent */
   --primary-foreground: #10182b; /* Dark blue for text on gold */
   --secondary: #8a94a7;
   --secondary-foreground: #ffffff;
   --muted: #253250; /* Darker, related blue for muted elements */
   --muted-foreground: #8a94a7;
-  --accent: #FFC700; /* Vibrant gold accent */
+  --accent: #6d8fed; /* Vibrant gold accent */
   --accent-foreground: #10182b; /* Dark blue for text on gold */
   --destructive: #d4183d;
   --destructive-foreground: #fff;
   --border: rgba(138, 148, 167, 0.2);
   --input: #253250;
-  --ring: #FFC700; /* Vibrant gold accent */
-  --chart-1: #FFC700; /* Vibrant gold accent */
+  --ring: #6d8fed; /* Vibrant gold accent */
+  --chart-1: #6d8fed; /* Vibrant gold accent */
   --chart-2: #8a94a7;
   --chart-3: #fff;
   --chart-4: #828292;
   --chart-5: #253250;
   --sidebar: #2a3858;
   --sidebar-foreground: #fff;
-  --sidebar-primary: #FFC700;
+  --sidebar-primary: #6d8fed;
   --sidebar-primary-foreground: #10182b;
   --sidebar-accent: #253250;
   --sidebar-accent-foreground: #fff;
   --sidebar-border: rgba(138, 148, 167, 0.2);
-  --sidebar-ring: #FFC700;
+  --sidebar-ring: #6d8fed;
   /* --- FONT WEIGHTS --- */
   --font-weight-light: 300;
   --font-weight-normal: 400;
@@ -4535,7 +4535,7 @@ html {
 }
 
 .accent-color {
-  color: #FFC700;
+  color: #6d8fed;
 }
 
 .muted-gray {
@@ -4543,7 +4543,7 @@ html {
 }
 
 .sparkline-path {
-  stroke: #FFC700;
+  stroke: #6d8fed;
   stroke-width: 2px;
   fill: none;
 }
