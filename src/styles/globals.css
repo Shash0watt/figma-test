@@ -4,13 +4,13 @@
 
 :root {
   --font-size: 14px;
-  --background: #121212;
+  --background: #1b2644;
   --foreground: #ffffff;
   --card: #1a1a1a;
   --card-foreground: #ffffff;
   --popover: #1a1a1a;
   --popover-foreground: #ffffff;
-  --primary: #00FFAB;
+  --primary: #6d8fed;
   --primary-foreground: #121212;
   --secondary: #8A94A7;
   --secondary-foreground: #ffffff;
@@ -47,13 +47,13 @@
 }
 
 .dark {
-  --background: #121212;
+  --background: #1b2644;
   --foreground: #ffffff;
   --card: #1a1a1a;
   --card-foreground: #ffffff;
   --popover: #1a1a1a;
   --popover-foreground: #ffffff;
-  --primary: #00FFAB;
+  --primary: #6d8fed;
   --primary-foreground: #121212;
   --secondary: #8A94A7;
   --secondary-foreground: #ffffff;
